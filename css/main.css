@@ -1,0 +1,18 @@
+:root {
+  --aqua-turquoise: #94D6BA;
+  --purple: #853EB6;
+  --dark-purple: #521680;
+  --creme: #FFE6AA;
+} 
+.bg-turquoise {
+  background-color: var(--aqua-turquoise);
+}
+.btn-purple {
+  background-color: var(--purple);
+  border-radius: 20px;
+}
+.nav-item .btn-purple {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
