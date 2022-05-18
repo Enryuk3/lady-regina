@@ -1,0 +1,11 @@
+{
+  "name": "lady-regina",
+  "version": "1.0.0",
+  "description": "Proyecto pasteleria Lady Regina delicias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CristopherGuzman",
+  "license": "MIT"
+}
