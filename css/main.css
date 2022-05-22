@@ -16,3 +16,53 @@
   font-weight: 800;
   font-size: 14px;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
+  color: var(--dark-purple);
+}
+.parrafo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  color: var(--dark-purple);
+}
+.bg-blue {
+  background-image: url("../assets/inicio/blueBackground.jpg");
+}
+
+
+.btn.primary {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 800;/* Extrabold */
+  color: var(--dark-purple);
+  background-color: white;
+  border: 0.999999px solid #521680;
+  border-radius: 25px;
+  transition: all;
+  transition-duration: 0.8s;
+}
+.btn.primary:hover{
+  transform: scale(1.04);
+
+}
+/* medida maxima Tablet*/
+@media (max-width:767px){
+  h1, h2, h3, h4, h5 {
+    font-size: 20px;
+  }
+  .parrafo {
+    font-size: 14px;
+  }
+  .bg-blue{
+    background-image: url("../assets/inicio/blueMiniBg.jpg");
+  }
+  .bg-blue__padding {
+    padding: 39px 32px;
+  }
+  .btn.primary {
+    font-size: 12px;
+  }
+  
+}
