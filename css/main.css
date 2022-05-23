@@ -3,6 +3,19 @@
   --purple: #853EB6;
   --dark-purple: #521680;
   --creme: #FFE6AA;
+  --titulos-desktop: 40px;
+  --titulos-mobile: 20px;
+  --titulos-card: 18px;  /* AAAA */
+  --titulos-card-mobile:12px;
+  --description-card-mobile: 12px;
+  --parrafo-desktop: 24px;
+  --parrafo-mobile: 14px;
+  --descripcion-desktop: 18px;
+  --description-mobile: 14px;
+  --boton-cta: 16px;
+  --boton-cta-mobile: 12px;
+  --boton-seemore: 18px;
+  --boton-seemore-mobile: 14px:
 } 
 .bg-turquoise {
   background-color: var(--aqua-turquoise);
@@ -19,12 +32,12 @@
 
 h1, h2, h3, h4, h5 {
   font-family: 'Shrikhand', cursive;
-  font-size: 40px;
+  font-size: var(--titulos-desktop);
   color: var(--dark-purple);
 }
 .parrafo {
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: var(--parrafo-desktop);
   color: var(--dark-purple);
 }
 .bg-blue {
@@ -34,11 +47,11 @@ h1, h2, h3, h4, h5 {
 
 .btn.primary {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: var(--boton-cta);
   font-weight: 800;/* Extrabold */
   color: var(--dark-purple);
   background-color: white;
-  border: 0.999999px solid #521680;
+  border: 0.999999px solid var(--dark-purple);
   border-radius: 25px;
   transition: all;
   transition-duration: 0.8s;
@@ -47,13 +60,31 @@ h1, h2, h3, h4, h5 {
   transform: scale(1.04);
 
 }
+
+.description {
+  font-family: 'Raleway', sans-serif;
+  font-size: var(--descripcion-desktop);
+}
+
+.btn.seemore {
+  display: flex;
+  gap: 8px;
+  color: var(--purple);
+  padding: 10px 10px 10px 0;
+  font-size: var(--boton-seemore);
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+}
+.btn.seemore {
+  fill: var(--dark-purple);
+}
 /* medida maxima Tablet*/
 @media (max-width:767px){
   h1, h2, h3, h4, h5 {
-    font-size: 20px;
+    font-size: var(--titulos-mobile);
   }
   .parrafo {
-    font-size: 14px;
+    font-size: var(--parrafo-mobile);
   }
   .bg-blue{
     background-image: url("../assets/inicio/blueMiniBg.jpg");
@@ -62,7 +93,13 @@ h1, h2, h3, h4, h5 {
     padding: 39px 32px;
   }
   .btn.primary {
-    font-size: 12px;
+    font-size: var(--boton-cta-mobile);
   }
-  
+  .description {
+    font-size: var(--description-mobile);
+  }
+  .btn.seemore {
+    font-size: var(--boton-seemore-mobile);
+    padding: 8.18407px 8.18407px 8.18407px 0px;
+  }
 }
