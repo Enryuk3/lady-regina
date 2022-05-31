@@ -70,9 +70,37 @@ h1, h2, h3, h4, h5 {
 }
 .btn.primary:hover{
   transform: scale(1.04);
-
 }
 
+.btn.secondary {
+  font-family: 'Raleway', sans-serif;
+  font-size: var(--boton-cta-mobile);
+  font-weight: 800;/* Extrabold */
+  color: var(--dark-purple);
+  background-color: var(--aqua-turquoise);
+  border: 0.999999px solid var(--dark-purple);
+  border-radius: 25px;
+  transition: all;
+  transition-duration: 0.8s;
+}
+.btn.secondary:hover{
+  transform: scale(1.04);
+}
+
+.btn.terciary{
+  font-family: 'Raleway', sans-serif;
+  font-size: var(--boton-cta-mobile);
+  font-weight: 800;/* Extrabold */
+  color: var(--aqua-turquoise);
+  background-color: white;
+  border: 0.999999px solid var(--aqua-turquoise);
+  border-radius: 25px;
+  transition: all;
+  transition-duration: 0.8s
+}
+.btn.terciary:hover{
+  transform: scale(1.04);
+}
 .description {
   font-family: 'Raleway', sans-serif;
   font-size: var(--descripcion-desktop);
@@ -118,6 +146,9 @@ h1, h2, h3, h4, h5 {
     padding: 39px 32px;
   }
   .btn.primary {
+    font-size: var(--boton-cta-mobile);
+  }
+  .btn-secondary {
     font-size: var(--boton-cta-mobile);
   }
   .description {
