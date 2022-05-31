@@ -38,10 +38,22 @@ h1, h2, h3, h4, h5 {
 .parrafo {
   font-family: 'Raleway', sans-serif;
   font-size: var(--parrafo-desktop);
+}
+
+.text-black {
+  color:black;
+}
+
+.text-purple {
   color: var(--dark-purple);
 }
+
 .bg-blue {
   background-image: url("../assets/inicio/blueBackground.jpg");
+}
+
+.bg-yellow {
+  background-image: url("../assets/inicio/yellowBackground.jpg");
 }
 
 
@@ -78,6 +90,16 @@ h1, h2, h3, h4, h5 {
 .btn.seemore {
   fill: var(--dark-purple);
 }
+
+.emilce {
+  background-color: #521680;
+}
+.emilce img {
+  height: 100%;
+  max-height: 300px;
+  min-width: 296px;
+  object-fit: cover;
+}
 /* medida maxima Tablet*/
 @media (max-width:767px){
   h1, h2, h3, h4, h5 {
@@ -88,6 +110,9 @@ h1, h2, h3, h4, h5 {
   }
   .bg-blue{
     background-image: url("../assets/inicio/blueMiniBg.jpg");
+  }
+  .bg-yellow {
+    background-image: url("../assets/inicio/yellowMiniBg.jpg");
   }
   .bg-blue__padding {
     padding: 39px 32px;
