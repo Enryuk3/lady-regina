@@ -20,10 +20,6 @@
 .bg-turquoise {
   background-color: var(--aqua-turquoise);
 }
-.bg-dark-purple {
-  background-color: var(--dark-purple);
-  border-radius: 20px;
-}
 .btn-purple {
   background-color: var(--purple);
   border-radius: 20px;
