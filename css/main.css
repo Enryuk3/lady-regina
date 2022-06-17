@@ -133,6 +133,34 @@ h1, h2, h3, h4, h5 {
   border-radius: 25px;
 }
 
+.cover-photo {
+  width: 96vw;
+  height: 400px;
+  margin: 25px;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+
+.emilce-img {
+  margin-left: 20px;
+}
+
+.title-regina {
+  margin-top: 70px;
+  order:-1;
+}
+
+.feria-medieval {
+  width: 100vw; 
+  height: 337px; 
+  object-fit: cover;
+  object-position: 100% 0
+}
+
+.contenedorParrafo {
+  padding-left: 25px;
+}
+
 
 
 
@@ -170,5 +198,45 @@ h1, h2, h3, h4, h5 {
   .btn.seemore {
     font-size: var(--boton-seemore-mobile);
     padding: 8.18407px 8.18407px 8.18407px 0px;
+  }
+  .logo {
+    height:72px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .cover-photo {
+    height: 128px;
+    width: 95%;
+    margin: 15px;
+  }
+  .emilce-img {
+    margin-left: 0;
+    height: 262px;
+    width: 90%;
+    object-fit: cover;
+    object-position: 70% 35%;
+  }
+  .principal2{
+    display: flex;
+    justify-content: center;
+    order: -1;
+  }
+  .title-regina {
+    margin-top: 15px;
+  }
+  .feria-medieval {
+    height: 168px;
+    object-fit: cover;
+    object-position: 0 25%;
+    margin-top: -20px;
+  }
+  .familiaLadyRegina {
+    height: 264px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 70% 45%;
+  }
+  .contenedorParrafo {
+    padding-left: 12px;
   }
 }
