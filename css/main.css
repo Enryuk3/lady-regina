@@ -3,6 +3,7 @@
   --purple: #853EB6;
   --dark-purple: #521680;
   --creme: #FFE6AA;
+  --gray: #C4C4C4;
   --titulos-desktop: 40px;
   --titulos-mobile: 20px;
   --titulos-card: 18px;  /* AAAA */
@@ -16,7 +17,13 @@
   --boton-cta-mobile: 12px;
   --boton-seemore: 18px;
   --boton-seemore-mobile: 14px;
-} 
+  --footer-mobile: 12px;
+  --footer: 14px;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
 .bg-turquoise {
   background-color: var(--aqua-turquoise);
 }
@@ -63,6 +70,9 @@ h1, h2, h3, h4, h5 {
   background-image: url("../assets/conoceme/yellowPhraseBg.jpg");
 }
 
+.bg-gray {
+  background-color: var(--gray);
+}
 
 .btn.primary {
   font-family: 'Raleway', sans-serif;
@@ -74,6 +84,7 @@ h1, h2, h3, h4, h5 {
   border-radius: 25px;
   transition: all;
   transition-duration: 0.8s;
+  padding: 8px 32px;
 }
 .btn.primary:hover{
   transform: scale(1.04);
@@ -89,7 +100,7 @@ h1, h2, h3, h4, h5 {
   border-radius: 25px;
   transition: all;
   transition-duration: 0.8s;
-  padding: 12px 32px;
+  padding: 8px 32px;
 }
 .btn.secondary:hover{
   transform: scale(1.04);
@@ -104,7 +115,8 @@ h1, h2, h3, h4, h5 {
   border: 0.999999px solid var(--aqua-turquoise);
   border-radius: 25px;
   transition: all;
-  transition-duration: 0.8s
+  transition-duration: 0.8s;
+  padding: 8px 32px;
 }
 .btn.terciary:hover{
   transform: scale(1.04);
@@ -165,10 +177,46 @@ h1, h2, h3, h4, h5 {
   padding-left: 25px;
 }
 
+.sub {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+.footer-mobile {
+  font-size: var(--footer-mobile);
+}
+#menu-mobile  div {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu-mobile h3 {
+  font-size: var(--footer-mobile);
+  text-align: center;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 800;
+}
+#menu-mobile h3 span{
+  font-size: var(--footer-mobile);
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif !important;
+  text-align: center;
+}
 
-
-
-
+.search__label {
+  font-size: 18px;
+}
+.search__input {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  padding: 12px;
+  border: solid 2.5px var(--dark-purple);
+  border-radius: 8px;
+  color: #A7BAC5;
+}
 
 /* medida maxima Tablet*/
 @media (max-width:767px){
@@ -192,10 +240,15 @@ h1, h2, h3, h4, h5 {
   }
   .btn.primary {
     font-size: var(--boton-cta-mobile);
+    padding: 4px 16px;
   }
   .btn.secondary {
     font-size: var(--boton-cta-mobile);
-   border: 0.999999px solid var(--dark-purple);
+    border: 0.999999px solid var(--dark-purple);
+    padding: 4px 16px;
+  }
+  .btn.terciary {
+    padding: 4px 16px;
   }
   .description {
     font-size: var(--description-mobile);
@@ -243,6 +296,19 @@ h1, h2, h3, h4, h5 {
   }
   .contenedorParrafo {
     padding-left: 12px;
+  }
+  .sub {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .search__input {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px;
+  }
+  .search__label {
+    font-size: 12px;
   }
 }
 
