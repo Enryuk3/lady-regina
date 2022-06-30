@@ -247,11 +247,12 @@ h4, h5 {
 }
 
 .card-img {
-  height: 239px;
-  width: 294px;
+  display: flex;
 }
 .card-img img{
-  object-fit: cover;
+  height: 239px;
+  width: 100%;
+  object-fit: cover
 }
 
 /* medida maxima Tablet*/
