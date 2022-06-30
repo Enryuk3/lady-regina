@@ -16,11 +16,11 @@
   <title>Lady Regina Delicias</title>
 </head>
 <body>
+  <!-- NavBar -->
   <header class="navbar navbar-expand-md navbar-dark bg-turquoise shadow-sm py-md-4">
     <nav class="container">
         <a class="navbar-brand" href="./index.html"><img  src="assets\logoLadyRegina.jpg" class="logo position-absolute top-0" alt="logo" height="200" />
         </a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
@@ -32,14 +32,14 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">PRODUCTOS</a>
-                  <div class="dropdown-menu emilce mw-75 text-center">
-                    <a class="dropdown-item text-white" href="clasica.html">Linea Clasica <hr></a>
-                    <a class="dropdown-item text-white" href="#">Linea Integral <br>y Saludable<hr></a>
+                  <div class="dropdown-menu emilce mw-75 text-center bg-dark-purple">
+                    <a class="dropdown-item text-white" href="./productos/linea-clasica.html">Linea Clasica <hr></a>
+                    <a class="dropdown-item text-white" href="./productos/linea-integral-y-saludable.html">Linea Integral <br>y Saludable<hr></a>
                     <a class="dropdown-item text-white" href="#">Linea Medieval <br>y Fantástica</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="#">CONOCEME</a>
+                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="./conoceme.html">CONOCEME</a>
                 </li>
                 <li class="nav-item">
                   <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="./contacto.html">HACÉ TU PEDIDO</a>
@@ -48,10 +48,15 @@
         </div>
     </nav>
   </header>
-  <div class="row">
-  <section class="col-md-12"><img src="assets/conoceme/budinIngles.jpg" alt="Budin Ingles" class="radius-img cover-photo"></section></div>
+  <!-- Banner -->
+  <section>
+    <div class="py-3 banner">
+      <img src="./assets/conoceme/budinIngles.jpg" alt="Budin Ingles" class="cover-photo">
+    </div>
+  </section>
+  <!--  -->
   <section class="container">
-  <section class="principal row">      
+  <section class="row">      
       <h1 class="title-regina">¿Quien es <br>Lady Regina?</h1>
       <div class="col-md-6 mt-3 ">
       <p class="parrafo">¡Hola! Mi nombre es Emilce y soy Lady Regina. Desde chica me gustó la cocina, en especial la pastelería y repostería. En un cuadernito, coleccionaba recetas recortadas de revistas y recetas de mis abuelas. Mis allegados me decían que tenía “buena mano” y así decidí estudiar de forma profesional, recibiéndome en el 2010 de Pastelera en el Liceo Gastronómico de Rosario, mi ciudad natal.<br><br>
@@ -82,7 +87,7 @@
       </div>
   </section>
 </section>
-<section class=" bg-yellow-frase d-flex flex-column text-center justify-content-center row my-5 py-5">
+<section class=" bg-yellow-frase d-flex flex-column text-center justify-content-center my-5 py-5">
     <div class="col-md-12 pt-md-5">    
         <h3>Soy una apasionada por la pastelería<br> que quiere compartir con vos mi<br> pasión de disfrutar lo que comemos<br> con conciencia y amor.</h3>
     </div>
@@ -90,39 +95,39 @@
         <button class="btn primary mt-5 p-3">HACÉ UN PEDIDO AQUÍ</button>
     </div>
 </section>
-
-<footer class="bg-turquoise">
-  <div class="row">
-  <div class="col-md-6">
-    <img src="./assets/logoLadyRegina.jpg" alt="Lady Regina" class="ms-5" width="202px">
-  </div>
-  <div class="col-md-6">
-    <div class="row pt-5">
-  <div class="col-md-4"><h4 class="parrafo text-purple">PRODUCTOS</h4> <br>
-      <p class="description text-purple">Línea Clásica<br>
-      Línea Integral y saludable<br>
-      Línea Medieval y fantástica</p>
-    </div>
-    <div class="col-md-4"><h4 class="parrafo text-purple">
-      CONOCEME<br>
-      HACÉ TU PEDIDO</h4> <br>
-      <p class="description text-purple">
-        +54 9 3415 66-5476<br>
-        lady.regina.delicias@hotmail.com<br></p>
-    </div>
-    <div class="col-md-4 align-self-end mb-4 d-flex gap-4">
-      <img src="./assets/Atom/facebook.svg" alt="Facebook">
-      <img src="./assets/Atom/instagram.svg" alt="Instagram">
-    </div>
+<!-- Footer -->
+<footer class="bg-turquoise container-fluid">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 text-white">Copyright ©2022 Lady Regina Pastelería. Rosario, Santa Fe, Argentina.</div>
-    </div>
+      <div class="col-md-6 footer-center">
+        <img src="./assets/logoLadyRegina.jpg" alt="Lady Regina" class="ms-lg-5" width="202px">
+      </div>
+      <div class="col-md-6 ">
+        <div class="row pt-md-5 footer-center">
+          <div class="col-lg-4">
+            <h4 class="parrafo text-purple title-footer">PRODUCTOS</h4>
+            <a href="./productos/linea-clasica.html" class="description text-purple">Línea clásica</a><br>
+            <a href="./productos/linea-integral-y-saludable.html" class="description text-purple">Línea Integral y saludable</a><br>
+            <a href="./productos/linea-medieval.html" class="description text-purple">Línea Medieval y fantástica</a>
+        </div>
+        <div class="col-lg-4 contenedor-conoceme">
+          <a class="parrafo text-purple title-footer" href="./conoceme.html">CONOCEME</a>
+          <h4 class="parrafo text-purple title-footer pt-4">HACÉ TU PEDIDO</h4>
+            <p class="description text-purple">
+            +54 9 3415 66-5476<br>
+            lady.regina.delicias@hotmail.com<br></p>
+        </div>
+          <div class="col-md-4 align-self-end mb-4 d-flex gap-4 justify-content-center">
+            <img src="./assets/Atom/facebook.svg" alt="Facebook">
+            <img src="./assets/Atom/instagram.svg" alt="Instagram">
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-white">Copyright ©2022 Lady Regina Pastelería. Rosario, Santa Fe, Argentina.</div>
+          </div>
+        </div>
+      </div>
+    </div> 
   </div>
-  </div>
-    </div>      
-
-
-
 </footer>
 
 

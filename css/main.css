@@ -37,11 +37,18 @@ body{
   font-size: 14px;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   font-family: 'Shrikhand', cursive;
   font-size: var(--titulos-desktop);
   color: var(--dark-purple);
 }
+
+h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .parrafo {
   font-family: 'Raleway', sans-serif;
   font-size: var(--parrafo-desktop);
@@ -55,6 +62,11 @@ h1, h2, h3, h4, h5 {
   color: var(--dark-purple);
 }
 
+.title-footer {
+  font-size: var(--boton-cta);
+  font-weight: 800;
+}
+
 .bg-blue {
   background-image: url("../assets/inicio/blueBackground.jpg");
 }
@@ -64,6 +76,9 @@ h1, h2, h3, h4, h5 {
 }
 .bg-purple {
   background-color: var(--purple);
+}
+.bg-dark-purple {
+  background-color: var(--dark-purple);
 }
 
 .bg-yellow-frase{
@@ -145,20 +160,25 @@ h1, h2, h3, h4, h5 {
   min-width: 296px;
   object-fit: cover;
 }
-.radius-img {
-  border-radius: 25px;
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover-photo {
-  width: 96vw;
   height: 400px;
-  margin: 25px;
+  width: 96%;
+  padding-top: 10px;
   object-fit: cover;
   object-position: 50% 40%;
+  border-radius: 25px;
 }
 
 .emilce-img {
   margin-left: 20px;
+  border-radius: 25px;
 }
 
 .title-regina {
@@ -170,7 +190,12 @@ h1, h2, h3, h4, h5 {
   width: 100vw; 
   height: 337px; 
   object-fit: cover;
-  object-position: 100% 0
+  object-position: 100% 0;
+  border-radius: 25px;
+}
+
+.familiaLadyRegina {
+  border-radius: 25px;
 }
 
 .contenedorParrafo {
@@ -217,6 +242,10 @@ h1, h2, h3, h4, h5 {
   border-radius: 8px;
   color: #A7BAC5;
 }
+.search_input:focus{
+  border: 2px solid var(--purple);
+}
+
 .card-img {
   height: 239px;
   width: 294px;
@@ -271,13 +300,11 @@ h1, h2, h3, h4, h5 {
   }
   .cover-photo {
     height: 128px;
-    width: 95%;
-    margin: 15px;
   }
   .emilce-img {
     margin-left: 0;
     height: 262px;
-    width: 90%;
+    width: 100%;
     object-fit: cover;
     object-position: 70% 35%;
   }
@@ -300,6 +327,7 @@ h1, h2, h3, h4, h5 {
     width: 100%;
     object-fit: cover;
     object-position: 70% 45%;
+    border-radius: 25px;
   }
   .contenedorParrafo {
     padding-left: 12px;
@@ -317,16 +345,31 @@ h1, h2, h3, h4, h5 {
   .search__label {
     font-size: 12px;
   }
+  h4, h5 {
+    font-size: 12px;
+  }
+  .title-footer {
+    font-size: var(--boton-cta-mobile);
+  }
+  .footer-center {
+    padding-top: 0;
+    text-align: center;
+  }
+  .footer-logo {
+    margin: 0;
+  }
+  .contenedor-conoceme {
+    padding-top: 15px;
+  }
 }
 
 
 @media (min-width:550px) {
-  .banner-contacto {
+  .banner {
     max-height: 100%;
-    height: 400px;
     width: 100%;
   }
-  .banner-contacto img {
+  .banner img {
     object-fit: cover;
   }
 }
