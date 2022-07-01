@@ -380,7 +380,14 @@ h4, h5 {
     font-weight: 800;
     font-size: var(--titulos-card-mobile);  
   }
-  
+  .bg-links {
+    background-color: var(--purple);
+    border-radius: 0 0 14px 14px;
+    max-width: 144px;
+  }
+  .border-bottom {
+    border-color: var;
+  }
 }
 
 
@@ -391,5 +398,13 @@ h4, h5 {
   }
   .banner img {
     object-fit: cover;
+  }
+}
+
+@media (max-width:719px) {
+  .bg-links {
+    background-color: var(--purple);
+    border-radius: 0 0 14px 14px;
+    max-width: 144px;
   }
 }
