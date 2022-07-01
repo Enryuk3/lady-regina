@@ -68,11 +68,11 @@ h4, h5 {
 }
 
 .bg-blue {
-  background-image: url("../assets/inicio/blueBackground.jpg");
+  background-color: var(--aqua-turquoise);
 }
 
 .bg-yellow {
-  background-image: url("../assets/inicio/yellowBackground.jpg");
+  background-color: var(--creme);
 }
 .bg-purple {
   background-color: var(--purple);
@@ -82,7 +82,7 @@ h4, h5 {
 }
 
 .bg-yellow-frase{
-  background-image: url("../assets/conoceme/yellowPhraseBg.jpg");
+  background-color: var(--creme);
 }
 
 .bg-gray {
@@ -277,13 +277,13 @@ h4, h5 {
     font-size: var(--parrafo-mobile);
   }
   .bg-blue{
-    background-image: url("../assets/inicio/blueMiniBg.jpg");
+    background-color: var(--aqua-turquoise);
   }
   .bg-yellow {
-    background-image: url("../assets/inicio/yellowMiniBg.jpg");
+    background-color: var(--creme);
   }
   .bg-yellow-frase{
-    background-image: url("../assets/conoceme/yellowMiniPhraseBg.jpg");
+    background-color: var(--creme);
   }
   .bg-blue__padding {
     padding: 39px 32px;
