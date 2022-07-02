@@ -8,6 +8,7 @@
   --titulos-mobile: 20px;
   --titulos-card: 18px;  /* AAAA */
   --titulos-card-mobile:12px;
+  --description-card: 14px;
   --description-card-mobile: 12px;
   --parrafo-desktop: 24px;
   --parrafo-mobile: 14px;
@@ -139,6 +140,9 @@ h4, h5 {
 .description {
   font-family: 'Raleway', sans-serif;
   font-size: var(--descripcion-desktop);
+}
+.card-description {
+  font-size: var(--description-card);
 }
 
 .btn.seemore {
@@ -302,6 +306,9 @@ h4, h5 {
   }
   .description {
     font-size: var(--description-mobile);
+  }
+  .card-description {
+    font-size: var(--description-card-mobile);
   }
   .btn.seemore {
     font-size: var(--boton-seemore-mobile);
