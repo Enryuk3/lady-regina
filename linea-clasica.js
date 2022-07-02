@@ -32,7 +32,7 @@ const mostrarProductos = (productos) => {
             <img src="../assets/productos/clásica/${imagen}"  alt="${nombre}">
           </div>
           <div class="card-body">
-            <p class="card-text">${descripcion}</p>  
+            <p class="card-text card-description">${descripcion}</p>  
           </div>    
         </div>    
       </div>    

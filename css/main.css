@@ -143,6 +143,7 @@ h4, h5 {
 }
 .card-description {
   font-size: var(--description-card);
+  font-weight: 400;
 }
 
 .btn.seemore {
