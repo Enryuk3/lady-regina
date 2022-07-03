@@ -39,3 +39,51 @@ const mostrarProductos = (productos) => {
       `;
   });
 };
+
+
+// input de busqueda
+const inputBusqueda = document.getElementById("inputSearch");
+// boton de busqueda
+const btnBusqueda = document.getElementById("btnBusqueda");
+// formulario
+const formularioLC = document.getElementById("formLineaClasica")
+
+const btnReset = document.getElementById("btnReset")
+// prevenir eventos por defecto en el formulario
+formularioLC.addEventListener('click',(event) => {
+  event.preventDefault()
+})
+
+// Al darle click al boton borrar vaciamos el input y llenamoso el contenedorLC
+btnReset.addEventListener('click', () => {
+  inputBusqueda.value = ""
+  getProductLineaClasica()
+    .then((data) => {
+      mostrarProductos(data);
+    })
+    .catch((err) => console.log(err));
+})
+
+
+// Filtrar cuando se de enter
+inputBusqueda.addEventListener('input','click', async () => {
+  getProductLineaClasica()
+  .then((data) => {
+    filtrarPorNombre(data);
+  })
+  .catch((err) => console.log(err));
+})
+
+
+//Filtrar productos atravez de la busqueda
+const filtrarPorNombre = async(productos) => {
+  let loQueQuieroBuscar = inputBusqueda.value;
+  let filtered = productos.filter(e => e.nombre.includes(loQueQuieroBuscar))
+
+  if (filtered.length > 0) {
+    contenedorLC.innerHTML = "";
+    mostrarProductos(filtered)
+  }else {
+    contenedorLC.innerHTML = `<p>No se encontró el producto</p>`;
+  }
+}
