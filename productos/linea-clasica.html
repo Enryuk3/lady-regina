@@ -93,18 +93,20 @@
       <div class="mt-3">
         <p class="parrafo">Pastelería tradicional de base francesa, preparaciones conocidas mundialmente, con un toque personal. También podés encontrar delicias tradicionales de otros países.</p>
       </div>
-      <div class="d-md-flex justify-content-between my-5">
-        <div class="col-md-6 mb-2 mb-md-0 search">
-          <label for="inputSearch" class="mb-1 text-purple search__label">
-          ¿Buscás algo en especial? Ponelo aquí...
-          </label><br>
-          <input type="text" id="inputSearch" placeholder="Ejm: Chocolate" class="block w-100 md:w-50 search__input">
+      <form id="formLineaClasica">
+        <div class="d-md-flex justify-content-between my-5">
+          <div class="col-md-6 mb-2 mb-md-0 search">
+            <label for="inputSearch" class="mb-1 text-purple search__label">
+            ¿Buscás algo en especial? Ponelo aquí...
+            </label><br>
+            <input type="text" id="inputSearch" placeholder="Ejm: Chocolate" class="block w-100 md:w-50 search__input">
+          </div>
+          <div class="col-md-6 justify-content-end  d-flex gap-2 gap-md-3 align-items-end">
+            <button id="btnBusqueda" class="btn secondary text-uppercase">Buscar</button>
+            <button id="btnReset" type="reset" class="btn primary text-uppercase">Borrar</button>
+          </div>
         </div>
-        <div class="col-md-6 justify-content-end  d-flex gap-2 gap-md-3 align-items-end">
-          <button class="btn secondary text-uppercase">Buscar</button>
-          <button class="btn primary  text-uppercase">Borrar</button>
-        </div>
-      </div>
+      </form>
     </section>
     <!-- Productos Linea clasica -->
     <div class="container mb-5">
