@@ -66,7 +66,7 @@ btnReset.addEventListener('click', () => {
 
 
 // Filtrar cuando se de enter
-inputBusqueda.addEventListener('input','click', async () => {
+inputBusqueda.addEventListener('input'||'click', async () => {
   getProductLineaClasica()
   .then((data) => {
     filtrarPorNombre(data);
