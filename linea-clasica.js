@@ -59,7 +59,7 @@ btnReset.addEventListener('click', () => {
   inputBusqueda.value = ""
   getProductLineaClasica()
     .then((data) => {
-      mostrarProductos(data);
+      filtrarPorNombre(data);
     })
     .catch((err) => console.log(err));
 })
@@ -78,7 +78,8 @@ inputBusqueda.addEventListener('input'||'click', async () => {
 //Filtrar productos atravez de la busqueda
 const filtrarPorNombre = async(productos) => {
   let loQueQuieroBuscar = inputBusqueda.value;
-  let filtered = productos.filter(e => e.nombre.includes(loQueQuieroBuscar))
+  let searched = loQueQuieroBuscar.toLowerCase()
+  let filtered = productos.filter(e => e.nombre.toLowerCase().includes(searched))
 
   if (filtered.length > 0) {
     contenedorLC.innerHTML = "";
