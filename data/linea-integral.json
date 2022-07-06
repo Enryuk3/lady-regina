@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "nombre": "Budín integral de chocolate y naranja",
+    "imagen": "budinChocolateNaranja.jpg",
+    "descripcion": "Harina de trigo integral, cacao amargo, azúcar mascabo, jugo, pulpa y cáscara de naranja, yogurt descremado, huevos, aceite de girasol. Chocolate semiamargo y cascaritas glaseadas."
+  },
+  {
+    "id": 2,
+    "nombre": "Budín integral de banana y nuez",
+    "imagen": "budinBananaNuez.jpg",
+    "descripcion": "Harina de trigo integral y 0000, aceite de girasol, leche descremada, azúcar mascabo, huevos, banana, nuez. Glaseado."
+  },
+  {
+    "id": 3,
+    "nombre": "Budín integral tipo inglés vegan",
+    "imagen": "budinIngles.jpg",
+    "descripcion": "Mix harina de trigo integral y 0000, gel de lino, aceite de girasol, azúcar mascabo, almendras, nueces, pasas morenas y rubias. Choco semiamargo y frutos secos."
+  },
+  {
+    "id": 4,
+    "nombre": "Budín integral de coco y limón",
+    "imagen": "budinCocoLimon.jpg",
+    "descripcion": "Harina integral, coco, jugo y cáscara de limón, azúcar mascabo, huevos, aceite. Glaseado y semillas de amapola."
+  },
+  {
+    "id": 5,
+    "nombre": "Muffin de limón vegan",
+    "imagen": "muffinLimonVegan.jpg",
+    "descripcion": "Harina de trigo, gel de lino, azúcar rubia mascabo, aceite de girasol, jugo y ralladura de limón. Glaseado de limón."
+  },
+  {
+    "id": 6,
+    "nombre": "Muffin de zucchini y chocolate",
+    "imagen": "muffinZucchiniChocolate.jpg",
+    "descripcion": "Mix de harina de trigo 0000 e integral, azúcar mascabo, huevo, aceite de girasol, zucchini rallado, jugo de limón, chocolate semiamargo."
+  },
+  {
+    "id": 7,
+    "nombre": "Galletitas integrales de chocolate y maní",
+    "imagen": "galletitasChocolateMani.jpg",
+    "descripcion": "Harina de trigo integral, azúcar mascabo, aceite de coco, cacao amargo, huevo y maní picado."
+  },
+  {
+    "id": 8,
+    "nombre": "Galletitas de avena, frutos secos y chips de chocolate semiamargo",
+    "imagen": "galletitasAvenaFrutosSecos.jpg",
+    "descripcion": "Mix de harina de trigo y harina de avena, azúcar mascabo, huevo, nuez y almendra picadas y chips de chocolate semiamargo."
+  },
+  {
+    "id": 9,
+    "nombre": "Galletitas de avena, naranja, coco y miel sin azúcar agregada",
+    "imagen": "galletitasAvenaNaranjaCoco.jpg",
+    "descripcion": "Harina de avena, avena en copos, jugo y ralladura de naranja, miel, coco rallado, huevo, vainilla, aceite de coco."
+  },
+  {
+    "id": 10,
+    "nombre": "Galletitas doble chocolate sin azúcar agregada",
+    "imagen": "galletitasDobleChocolate.jpg",
+    "descripcion": "Harina de almendras, harina de avena, harina de arroz, miel, aceite de coco, huevo, cacao amargo y chips de chocolate semiamargo."
+  },
+  {
+    "id": 11,
+    "nombre": "Bizcochitos salados sin tacc",
+    "imagen": "bizcochitosSalados.jpg",
+    "descripcion": "Harina de arroz, almidón de maíz, fécula de mandioca, crema de leche 44 %."
+  },
+  {
+    "id": 12,
+    "nombre": "Scones con chocolate",
+    "imagen": "scoonesChocolate.jpg",
+    "descripcion": "Mix de harina de trigo 0000 e integral, azúcar mascabo, aceite de coco, huevo, vainilla, ralladura de cítricos, chips de chocolate semiamargo."
+  },
+  {
+    "id": 13,
+    "nombre": "Alfajor de avena y membrillo",
+    "imagen": "alfajorAvenaMembrillo.jpg",
+    "descripcion": "Harina de avena, harina de trigo integral, almidón de maíz, aceite de coco, huevo, azúcar mascabo, ralladura de limón, vainilla, dulce de membrillo."
+  },
+  {
+    "id": 14,
+    "nombre": "Torta de zanahoria vegan sin tacc",
+    "imagen": "tortaZanahoria.jpg",
+    "descripcion": "Harina de garbanzo, harina de arroz, gel de lino, aceite de girasol, zanahoria, azúcar mascabo, jugo de naranja, nuez."
+  },
+  {
+    "id": 15,
+    "nombre": "Torta tipo galesa vegan sin tacc",
+    "imagen": "tortaGalesa.jpg",
+    "descripcion": "Harina de garbanzo, harina de arroz, gel de lino, azúcar mascabo, aceite de coco, jugo y ralladura de naranja, cacao amargo, nuez, pasas de uva y ciruela. Glaseado de limón."
+  },
+  {
+    "id": 16,
+    "nombre": "Brownie integral",
+    "imagen": "brownieIntegral.jpg",
+    "descripcion": "Harina de trigo integral, cacao amargo, aceite de girasol, azúcar mascabo, gel de lino, nuez."
+  },
+  {
+    "id": 17,
+    "nombre": "Masas secas integrales surtidas",
+    "imagen": "masasIntegrales.jpg",
+    "descripcion": "Con harina de trigo integral, azúcar, vainilla, cacao amargo, yema, manteca. Decoradas con chocolate semiamargo, crocante de maní, cerezas, coco rallado y frutos secos."
+  },
+  {
+    "id": 18,
+    "nombre": "Pepas integrales de membrillo y batata",
+    "imagen": "pepasMembrilloBatata.jpg",
+    "descripcion": "Mix de harina de trigo 0000 e integral, almidón de maíz, azúcar mascabo, huevo, manteca, ralladura de limón, vainilla. Dulce de batata o membrillo."
+  },
+  {
+    "id": 19,
+    "nombre": "Pan dulce integral",
+    "imagen": "panDulceIntegral.jpg",
+    "descripcion": "Mix de harina de trigo 0000 e integral, azúcar mascabo, leche en polvo descremada, crema de leche, miel, manzana, manteca, nuez, almendra y chocolate semiamargo. "
+  },
+  {
+    "id": 20,
+    "nombre": "Stollen integral vegan",
+    "imagen": "stollenIntegral.jpg",
+    "descripcion": "Harina de trigo integral, harina de almendra, jugo de naranja, azúcar mascabo, aceite de coco, con nuez y almendra."
+  },
+  {
+    "id": 21,
+    "nombre": "Rosca integral de naranja y chocolate",
+    "imagen": "roscaIntegralNaranjaChocolate.jpg",
+    "descripcion": "Harina de trigo integral, azúcar mascabo, leche descremada, ralladura y jugo de naranja, huevo, manteca. Rellena de crema de chocolate semiamargo.."
+  },
+  {
+    "id": 22,
+    "nombre": "Muffin de miel, frutos secos y especias",
+    "imagen": "noPhoto.jpg",
+    "descripcion": "Mix de harina de trigo 0000 e integral, azúcar mascabo, miel, crema de leche, jengibre, canela, huevo, nuez y almendra. Glaseado de limón."
+  }
+]
