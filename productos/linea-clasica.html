@@ -16,45 +16,36 @@
   <title>Lady Regina Delicias</title>
 </head>
 <body>
-<!-- NavBar -->
+  <!-- NavBar -->
   <header class="navbar navbar-expand-md navbar-dark bg-turquoise shadow-sm py-md-4">
     <nav class="container">
-      <a class="navbar-brand" href="../index.html"><img  src="../assets/logoLadyRegina.png" class="logo position-absolute top-0" alt="logo" height="200" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-links">
-          <li class="nav-item d-flex justify-content-end align-items-center">
-            <a class="btn btn-purple me-lg-5 text-white px-lg-4 px-xl-5 active  mx-auto" aria-current="page" href="../index.html">INICIO</a>
-          </li>
-          <hr class="w-100 mx-auto d-md-none my-1">
-          <li class="nav-item dropdown d-inline-block d-flex justify-content-end align-items-center">
-            <a class="btn btn-purple me-lg-5 mx-auto text-white px-lg-4 px-xl-5 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">PRODUCTOS</a>
-            <div class="dropdown-menu emilce mw-75 text-center bg-dark-purple">
-              <a class="dropdown-item text-white" href="linea-clasica.html">
-                Linea Clasica 
-                <hr>
-              </a>
-              <a class="dropdown-item text-white" href="./linea-integral-y-saludable.html">
-                Linea Integral <br>y Saludable
-                <hr>
-              </a>
-              <a class="dropdown-item text-white" href="#">Linea Medieval <br>y Fantástica</a>
-            </div>
-          </li>
-          <hr class="w-100 mx-auto d-md-none my-1">
-          <li class="nav-item d-flex justify-content-end align-items-center">
-            <a class="btn btn-purple me-lg-5 text-white px-lg-4 px-xl-5 mx-auto" href="../conoceme.html">CONOCEME</a>
-          </li>
-          <hr class="w-100 mx-auto d-md-none my-1">
-          <li class="nav-item d-flex justify-content-end align-items-center">
-            <a class="btn btn-purple me-lg-5 text-white px-lg-4 px-xl-5 mx-auto" href="../contacto.html">HACÉ TU PEDIDO</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="../index.html"><img  src="../assets/logoLadyRegina.png" class="logo position-absolute top-0" alt="logo" height="200" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-links">
+                <li class="nav-item">
+                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5 active" aria-current="page" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">PRODUCTOS</a>
+                  <div class="dropdown-menu emilce mw-75 text-center bg-dark-purple">
+                    <a class="dropdown-item text-white" href="#">Linea Clasica <hr></a>
+                    <a class="dropdown-item text-white" href="./linea-integral-y-saludable.html">Linea Integral <br>y Saludable<hr></a>
+                    <a class="dropdown-item text-white" href="./linea-medieval-y-fanstastica">Linea Medieval <br>y Fantástica</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="../conoceme.html">CONOCEME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="../contacto.html">HACÉ TU PEDIDO</a>
+                </li>
+            </ul>
+        </div>
     </nav>
   </header>
   <!-- Banner -->
@@ -113,6 +104,20 @@
       <section id="contenedorLineaClasica" class="row row-cols-1 row-cols-xl-4 g-4 row-cols-md-2 row-cols-lg-3">
       </section>
     </div>
+
+
+<!--  -->
+<section class="bg-yellow-frase d-flex flex-column text-center justify-content-center my-5 py-5">
+  <div class="col-md-12 pt-md-5">    
+      <h3 class="texto-frase">Viví una experiencia única y viajá a través del sabor de un bocado bien hecho que trae felicidad al alma y nutrientes al cuerpo.<br><br>
+        ¿Qué más se puede pedir?</h3>
+  </div>
+  <div class="col-md-12 pb-md-5">        
+      <button class="btn primary mt-5 p-3"><a class="text-purple" href="../contacto.html">HACÉ UN PEDIDO AQUÍ</a></button>
+  </div>
+</section>
+
+
   </main>
     
   <!-- Footer -->
@@ -131,15 +136,15 @@
               <a href="./linea-medieval.html" class="description text-purple">Línea Medieval y fantástica</a>
           </div>
           <div class="col-lg-4 contenedor-conoceme">
-            <a class="parrafo text-purple title-footer" href="./conoceme.html">CONOCEME</a>
+            <a class="parrafo text-purple title-footer" href="../conoceme.html">CONOCEME</a>
             <h4 class="parrafo text-purple title-footer pt-4">HACÉ TU PEDIDO</h4>
               <p class="description text-purple">
               +54 9 3415 66-5476<br>
               lady.regina.delicias@hotmail.com<br></p>
           </div>
             <div class="col-md-4 align-self-end mb-4 d-flex gap-4 justify-content-center">
-              <img src="../assets/Atom/facebook.svg" alt="Facebook">
-              <img src="../assets/Atom/instagram.svg" alt="Instagram">
+              <a href="facebook.com"><img src="../assets/Atom/facebook.svg" alt="Facebook"></a>
+              <a href="instagram.com"><img src="../assets/Atom/instagram.svg" alt="Instagram"></a>
             </div>
             <div class="row">
               <div class="col-md-12 text-white">Copyright ©2022 Lady Regina Pastelería. Rosario, Santa Fe, Argentina.</div>
