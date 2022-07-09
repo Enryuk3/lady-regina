@@ -85,6 +85,6 @@ const filtrarPorNombre = async(productos) => {
     contenedorLC.innerHTML = "";
     mostrarProductos(filtered)
   }else {
-    contenedorLC.innerHTML = `<p>No se encontró el producto</p>`;
+    contenedorLC.innerHTML = `<p>¡Lo sentimos! No hemos encontrado ningún resultado para tu búsqueda...</p>`;
   }
 }
