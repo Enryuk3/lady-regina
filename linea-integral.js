@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((err) => console.log(err));
 });
 
-//Conseguir los productos de la linea clasica
+//Conseguir los productos de la linea integral
 const getProductLineaIntegral = async () => {
   const response = await fetch("../data/linea-integral.json");
   const data = await response.json();
