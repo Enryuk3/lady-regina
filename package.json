@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "contributors": ["Cristopher Guzmán", "Federico Errecalde"
-  ],
+  "contributors": ["Cristopher Guzmán", "Federico Errecalde"],
   "license": "MIT"
 }
