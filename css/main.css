@@ -94,6 +94,10 @@ a {
   background-color: var(--gray);
 }
 
+.bg-blue__padding {
+  padding: 60px 319px 51px;
+}
+
 .btn.primary {
   font-family: 'Raleway', sans-serif;
   font-size: var(--boton-cta);
