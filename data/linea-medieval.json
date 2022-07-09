@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lembas, pan élfico",
+    "imagen": "lembas.jpg",
+    "descripcion": "Pan levemente dulce, con nuez, almendra y mix de semillas."
+  },
+  
+  {
+    "id": 2,
+    "nombre": "Applecakes de Jon Snow",
+    "imagen": "applecakesJonSnow.jpg",
+    "descripcion": "Mini torta húmeda, con manzana y crumble de azúcar negra, nuez y canela."
+  },
+  {
+    "id": 3,
+    "nombre": "Honeycakes de Beorn",
+    "imagen": "honeycakesBeorn.jpg",
+    "descripcion": "Mini torta de miel, crema, mix de especias, nuez. Glaseado de limón con nuez picada."
+  },
+  {
+    "id": 4,
+    "nombre": "Tarta Bifur",
+    "imagen": "tartaBifur.jpg",
+    "descripcion": "Masa quebrada, semi compota de manzana y canela, mermelada de frambuesa y crumble."
+  },
+  {
+    "id": 5,
+    "nombre": "Carrot cake",
+    "imagen": "carrotCake.jpg",
+    "descripcion": "Torta húmeda a base de zanahoria, con toque de canela y nuez. Cubierta con crema de queso y nueces picadas."
+  },
+  {
+    "id": 6,
+    "nombre": "Torta frutada tipo galesa",
+    "imagen": "tortaFrutada.jpg",
+    "descripcion": "Húmeda, con oporto, naranja, pasas de uva y ciruelas y nuez. Con glaseado de limón."
+  },
+  {
+    "id": 7,
+    "nombre": "Panecillos rellenos salados",
+    "imagen": "panecillosRellenos.jpg",
+    "descripcion": "Masa saborizada con orégano, relleno de cebolla blanca, morada y de verdeo salteadas, tomate cherry, jamón cocido y mozzarella."
+  },
+  {
+    "id": 8,
+    "nombre": "Lemon cakes, bocadillos de Sansa",
+    "imagen": "lemonCakesSansa.jpg",
+    "descripcion": "Galletitas crocantes por fuera y húmedas por dentro, de limón, con glaseado de limón."
+  },
+  {
+    "id": 9,
+    "nombre": "Torta del Sr. Tumnus",
+    "imagen": "noPhoto.jpg",
+    "descripcion": "Esponjosa, sabor limón, con canela y crumble con azúcar negra."
+  },
+  {
+    "id": 10,
+    "nombre": "Tarta dulce de Oporto y especias",
+    "imagen": "noPhoto.jpg",
+    "descripcion": "Masa con un toque de azafrán, crema con oporto, miel, azafrán, jengibre, nuez moscada y arándanos o peras."
+  },
+  {
+    "id": 11,
+    "nombre": "Torta de Bilbo para la hora del té",
+    "imagen": "noPhoto.jpg",
+    "descripcion": "Húmeda, sabor naranja, con jengibre y chips de chocolate."
+  }
+]
