@@ -61,7 +61,7 @@
         <h2 class="mb-3 mb-md-5">¡Contactame!</h2>
         <p class="parrafo">¿Querés hacer un pedido? Podés hacer un pedido <br> directamente a través de WhatsApp presionando este botón:</p>
         <div class="col-md-12 pb-md-5">        
-          <button class="btn primary mt-5 p-3"><a class="text-purple" href="../contacto.html">HACÉ UN PEDIDO AQUÍ</a></button>
+          <button class="btn secondary mt-5 p-3"><a class="text-purple" href="../contacto.html">HACÉ UN PEDIDO AQUÍ</a></button>
       </div>
       </div>
       <article class="d-flex flex-column bg-purple text-white p-4 rounded">
@@ -93,15 +93,17 @@
         </div>
         <div class="mb-3">
           <label for="mensaje" class="form-label description text-purple">Mensaje</label>
-          <textarea class="form-control description mb-4" id="mensaje" rows="9" placeholder="Contame en detalle en qué puedo ayudarte..." id="mensaje"></textarea>
-          <div id="errorMensaje"></div>
-          <span class="text-purple description fst-italic">*Campos Obligatorios</span>
+          <div id="successForm">
+          <textarea class="form-control description mb-4" id="mensaje" rows="9" placeholder="Contame en detalle en qué puedo ayudarte..."></textarea>
+        </div>
+        <div id="errorMensaje"></div>
+        <div id="errorForm"></div>
+        <span class="text-purple description fst-italic">*Campos Obligatorios</span>
         </div>
         <div class="d-flex justify-content-end col gap-3 ">
           <input type="button" class="btn secondary" value="ENVIAR" id="boton_enviar">
           <input type="button" class="btn terciary" value="BORRAR" id="boton_borrar">
         </div>
-        <div id="errorForm"></div>
 
 
       </form>
