@@ -251,7 +251,7 @@ a {
   padding: 12px;
   border: solid 2.5px var(--dark-purple);
   border-radius: 8px;
-  color: #A7BAC5;
+  color: #000;
 }
 .search_input:focus{
   border: 2px solid var(--purple);
