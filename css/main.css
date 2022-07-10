@@ -37,11 +37,9 @@ body{
   font-weight: 800;
   font-size: 14px;
 }
-
 h1, h2, h3 {
   font-family: 'Shrikhand', cursive;
-  font-size: var(--titulos-desktop);
-  color: var(--dark-purple);
+  color: var(--dark-purple); 
 }
 
 h4, h5 {
@@ -95,7 +93,7 @@ a {
 }
 
 .bg-blue__padding {
-  padding: 60px 319px 51px;
+  padding: 60px 120px 51px;
 }
 
 .btn.primary {
@@ -284,6 +282,14 @@ a {
   margin: 0 15rem;
 }
 
+.card-home{
+  box-shadow: none;
+}
+
+.card-home h2 {
+  flex: 1 1 auto;
+}
+
 
 /* medida maxima Tablet*/
 @media (max-width:767px){
@@ -411,6 +417,12 @@ a {
   .texto-frase{
     margin: 0 2rem;
   }
+  .card-home .card-img img {
+    max-height: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
 }
 
 
@@ -430,4 +442,24 @@ a {
     border-radius: 0 0 14px 14px;
     max-width: 144px;
   }
+  .card-home .card-img img {
+    max-height: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
 }
+
+/* > tablet */ 
+@media (min-width: 992px) {
+  h1, h2, h3 {
+    font-size: var(--titulos-desktop);
+  }
+  .bg-blue__padding {
+    padding: 60px 319px 51px;
+  }
+  .card-home .card-img img {
+    height: 450px;
+    object-fit: cover;
+  }
+}
+
