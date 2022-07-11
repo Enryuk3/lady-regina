@@ -44,19 +44,23 @@
 }
 
 .swiper-slide:nth-child(5) {
-  background: url(../assets/inicio/galletitasAvenaFrutosSecos.jpg) no-repeat center;
+  background: url(../assets/inicio/tortaFrutada.jpg) no-repeat center;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(6) {
-  background: url(../assets/inicio/tortaDecorada.jpg) no-repeat center;
+  background: url(../assets/inicio/galletitasAvenaFrutosSecos.jpg) no-repeat center;
   background-size: cover;
 }
+
 .swiper-slide:nth-child(7) {
   background: url(../assets/inicio/masasSecas.jpg) no-repeat center;
   background-size: cover;
 }
+
 .swiper-slide:nth-child(8) {
-  background: url(../assets/inicio/tortaPorter.jpg) no-repeat center;
+  background: url(../assets/inicio/tortaDecorada.jpg) no-repeat center;
   background-size: cover;
 }
+
+
