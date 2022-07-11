@@ -284,6 +284,15 @@ a {
 .card-home{
   box-shadow: none;
 }
+.confirmation {
+  top: 0;
+  left: 0;
+}
+
+.bg-gracias{
+  background-color: #00B934;
+}
+
 
 .card-home h2 {
   flex: 1 1 auto;
