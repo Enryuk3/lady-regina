@@ -54,7 +54,6 @@ a {
 
 .parrafo {
   font-family: 'Raleway', sans-serif;
-  font-size: var(--parrafo-desktop);
 }
 
 .text-black {
@@ -290,7 +289,12 @@ a {
   flex: 1 1 auto;
 }
 
-
+.bg-emilce {
+  width: 400px;
+  height: 400px;
+  background: url(../assets/inicio/ladyRegina.jpeg) no-repeat center;
+  background-size: cover;
+}
 /* medida maxima Tablet*/
 @media (max-width:767px){
   h1, h2, h3, h4, h5 {
@@ -455,11 +459,22 @@ a {
     font-size: var(--titulos-desktop);
   }
   .bg-blue__padding {
-    padding: 60px 319px 51px;
+    padding: 60px 220px 51px;
   }
   .card-home .card-img img {
     height: 450px;
     object-fit: cover;
   }
+  .parrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--parrafo-desktop);
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-blue__padding {
+    padding: 60px 320px 51px;
+  }
+  
 }
 
