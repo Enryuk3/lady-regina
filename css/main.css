@@ -37,11 +37,9 @@ body{
   font-weight: 800;
   font-size: 14px;
 }
-
 h1, h2, h3 {
   font-family: 'Shrikhand', cursive;
-  font-size: var(--titulos-desktop);
-  color: var(--dark-purple);
+  color: var(--dark-purple); 
 }
 
 h4, h5 {
@@ -56,7 +54,6 @@ a {
 
 .parrafo {
   font-family: 'Raleway', sans-serif;
-  font-size: var(--parrafo-desktop);
 }
 
 .text-black {
@@ -92,6 +89,10 @@ a {
 
 .bg-gray {
   background-color: var(--gray);
+}
+
+.bg-blue__padding {
+  padding: 60px 120px 51px;
 }
 
 .btn.primary {
@@ -249,7 +250,7 @@ a {
   padding: 12px;
   border: solid 2.5px var(--dark-purple);
   border-radius: 8px;
-  color: #A7BAC5;
+  color: #000;
 }
 .search_input:focus{
   border: 2px solid var(--purple);
@@ -280,7 +281,20 @@ a {
   margin: 0 15rem;
 }
 
+.card-home{
+  box-shadow: none;
+}
 
+.card-home h2 {
+  flex: 1 1 auto;
+}
+
+.bg-emilce {
+  width: 400px;
+  height: 400px;
+  background: url(../assets/inicio/ladyRegina.jpeg) no-repeat center;
+  background-size: cover;
+}
 /* medida maxima Tablet*/
 @media (max-width:767px){
   h1, h2, h3, h4, h5 {
@@ -407,6 +421,12 @@ a {
   .texto-frase{
     margin: 0 2rem;
   }
+  .card-home .card-img img {
+    max-height: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
 }
 
 
@@ -426,4 +446,35 @@ a {
     border-radius: 0 0 14px 14px;
     max-width: 144px;
   }
+  .card-home .card-img img {
+    max-height: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
 }
+
+/* > tablet */ 
+@media (min-width: 992px) {
+  h1, h2, h3 {
+    font-size: var(--titulos-desktop);
+  }
+  .bg-blue__padding {
+    padding: 60px 220px 51px;
+  }
+  .card-home .card-img img {
+    height: 450px;
+    object-fit: cover;
+  }
+  .parrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--parrafo-desktop);
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-blue__padding {
+    padding: 60px 320px 51px;
+  }
+  
+}
+
