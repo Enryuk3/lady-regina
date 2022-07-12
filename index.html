@@ -195,32 +195,32 @@
     </div>
     <div>
       <p class="parrafo">Si tenés alguna consulta sobre alguno de los productos o deseas un pedido especial también podés completar este formulario y me pondré en contacto con vos lo más pronto posible.</p>
-      <form>
+      <form action="https://formspree.io/f/meqnbnva" method="POST" id="form">
         <div class="mb-3">
           <label for="NombreCompleto" class="form-label description text-purple">Nombre completo*</label>
-          <input type="text" class="form-control description" id="nombreCompleto" placeholder="Ejm: Lady Regina">
+          <input type="text" name="name" class="form-control description" id="nombreCompleto" placeholder="Ejm: Lady Regina">
           <div id="errorNombre"></div>
         </div>
         <div class="mb-3">
           <label for="telefono" class="form-label description text-purple">Teléfono de contacto*</label>
-          <input type="email" class="form-control description " id="telefono" placeholder="Ejm: +54 9 3556 77-8902">
+          <input type="text" name="phone" class="form-control description " id="telefono" placeholder="Ejm: +54 9 3556 77-8902">
           <div id="errorTelefono"></div>
         </div>
       <div class="mb-3">
           <label for="email" class="form-label description text-purple">Email*</label>
-          <input type="email" class="form-control description" id="email" placeholder="Ejm: ladyregina@ladyregina.com">
+          <input type="email" name="email" class="form-control description" id="email" placeholder="Ejm: ladyregina@ladyregina.com">
           <div id="errorEmail"></div>
         </div>
         <div class="mb-3">
           <label for="mensaje" class="form-label description text-purple">Mensaje</label>
-          <div id="successForm" class="mb-3">
-          <textarea class="form-control" id="mensaje" rows="3" placeholder="Contame en detalle en qué puedo ayudarte..."></textarea>
-          <span class=" text-purple">*Campos Obligatorios</span>
-        </div>
+          <textarea class="form-control mb-4" name="message" id="mensaje" rows="3" placeholder="Contame en detalle en qué puedo ayudarte..."></textarea>      
+        <div id="successForm" class="mb-3">
         <div id="errorMensaje"></div>
         <div id="errorForm"></div>
+        <span class=" text-purple">*Campos Obligatorios</span>
+      </div>
         <div class="d-flex justify-content-between col-8 col-md-4 mx-auto">
-          <input type="button" class="btn secondary" value="ENVIAR" id="boton_enviar">
+          <input type="submit" class="btn secondary" value="ENVIAR" id="boton_enviar">
           <input type="button" class="btn terciary" value="BORRAR" id="boton_borrar">
           
         </div>
@@ -267,7 +267,9 @@
 </footer>
 
 
+<!-- Form Validation -->
   <script src="./contacto.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
