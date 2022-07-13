@@ -304,6 +304,29 @@ a {
   background: url(../assets/inicio/ladyRegina.jpeg) no-repeat center;
   background-size: cover;
 }
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: var(--purple);
+
+}
+
+.btn-wsp {
+  position: fixed;
+  line-height: 55px;
+  top: 50%;
+  right: 15px;
+  border-radius: 50px;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+.btn-wsp img {
+  width: 55px;
+  height: 55px;
+}
+.btn-wsp:hover {
+  transform: scale(1.06);
+
+}
 /* medida maxima Tablet*/
 @media (max-width:767px){
   h1, h2, h3, h4, h5 {
@@ -459,6 +482,10 @@ a {
     max-height: 100%;
     height: 180px;
     object-fit: cover;
+  }
+  .btn-wsp img {
+    width: 33px;
+    height: 33px;
   }
 }
 
