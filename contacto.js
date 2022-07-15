@@ -9,7 +9,7 @@ if (email.length < 5 || email.indexOf("@") == -1 || email.indexOf(".") == -1) {e
 if (telefono.length < 7) {errorTelefono.innerHTML = `<p class="text-danger fs-6 pt-3">⚠ Ingrese un telefono válido</p>`} else { errorTelefono.innerHTML = ""};
 if (mensaje.length < 10) {errorMensaje.innerHTML = `<p class="text-danger fs-6 pt-2">⚠ Ingrese su mensaje</p>`} else { errorMensaje.innerHTML = ""};
  
-(email.length < 5) || (email.indexOf("@") == -1) || (email.indexOf(".") == -1) || (nombre.length < 5) || (telefono.length < 7) || (mensaje.length < 10)? errorForm.innerHTML = "" : successForm.innerHTML = `<div class="d-flex justify-content-center description bg-turquoise py-5" id="mensaje" rows="9"><div class="text-white p-2 rounded bg-gracias">Mensaje Enviado</div></div>`; 
+(email.length < 5) || (email.indexOf("@") == -1) || (email.indexOf(".") == -1) || (nombre.length < 5) || (telefono.length < 7) || (mensaje.length < 10)? errorForm.innerHTML = "" : successForm.innerHTML = `<div class="d-flex justify-content-center description bg-turquoise py-5" id="mensaje" rows="9"><div class="text-white p-2 rounded bg-gracias">Mensaje Enviado</div></div>` 
 }
 document.getElementById("boton_enviar").addEventListener("click", validarFormulario);
 
@@ -24,4 +24,22 @@ boton_borrar.addEventListener('click', () => {
     errorTelefono.innerHTML = "";
     errorMensaje.innerHTML = "";
     errorForm.innerHTML = "";
-  })
+  });
+
+  const $form = document.querySelector('#form')
+  $form.addEventListener('submit', handleSubmit)
+  async function handleSubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
+    const response = await fetch(this.action, {
+        method: this.method,
+        body: form,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    if (response.ok){
+        this.reset()
+    }
+  }
+
