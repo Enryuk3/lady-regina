@@ -194,6 +194,14 @@ a {
   margin-left: 20px;
   border-radius: 25px;
 }
+.emilce-img2 {
+  margin-top: 15px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 70% 35%;
+  margin-left: 20px;
+  border-radius: 25px;
+}
 
 .title-regina {
   margin-top: 70px;
@@ -386,6 +394,14 @@ a {
     height: 128px;
   }
   .emilce-img {
+    margin-left: 0;
+    height: 253px;
+    width: 327px;
+    object-fit: cover;
+    object-position: 70% 35%;
+  }
+  .emilce-img2 {
+    margin-top: 5px;
     margin-left: 0;
     height: 253px;
     width: 327px;
