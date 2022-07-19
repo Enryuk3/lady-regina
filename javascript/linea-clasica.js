@@ -43,8 +43,6 @@ const mostrarProductos = (productos) => {
 
 // input de busqueda
 const inputBusqueda = document.getElementById("inputSearch");
-// boton de busqueda
-const btnBusqueda = document.getElementById("btnBusqueda");
 // formulario
 const formularioLC = document.getElementById("formLineaClasica")
 
@@ -66,7 +64,7 @@ btnReset.addEventListener('click', () => {
 
 
 // Filtrar cuando se de enter
-inputBusqueda.addEventListener('input'||'click', async () => {
+inputBusqueda.addEventListener('input', async () => {
   getProductLineaClasica()
   .then((data) => {
     filtrarPorNombre(data);
