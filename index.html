@@ -62,18 +62,18 @@
                   <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5 active" aria-current="page" href="#">INICIO</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">PRODUCTOS</a>
-                  <div class="dropdown-menu emilce mw-75 text-center bg-dark-purple">
-                    <a class="dropdown-item text-white" href="./productos/linea-clasica.html">Linea Clasica <hr></a>
-                    <a class="dropdown-item text-white" href="./productos/linea-integral-y-saludable.html">Linea Integral <br>y Saludable<hr></a>
-                    <a class="dropdown-item text-white" href="./productos/linea-medieval.html">Linea Medieval <br>y Fantástica</a>
+                  <a class="btn btn-purple text-white px-lg-4 px-xl-5 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">PRODUCTOS</a>
+                  <div class="dropdown-menu emilce w-100 text-center bg-dark-purple">
+                    <a class="dropdown-item text-white px-0" href="./productos/linea-clasica.html">Linea Clasica <hr></a>
+                    <a class="dropdown-item text-white px-0" href="./productos/linea-integral-y-saludable.html">Linea Integral <br>y Saludable<hr></a>
+                    <a class="dropdown-item text-white px-0" href="./productos/linea-medieval.html">Linea Medieval <br>y Fantástica</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="./conoceme.html">CONOCEME</a>
+                  <a class="btn btn-purple me-2 me-lg-5 ms-md-2 ms-lg-5 text-white px-lg-4 px-xl-5" href="./conoceme.html">CONOCEME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-purple me-2 me-lg-5 text-white px-lg-4 px-xl-5" href="./contacto.html">HACÉ TU PEDIDO</a>
+                  <a class="btn btn-purple text-white px-lg-4 px-xl-5" href="./contacto.html">HACÉ TU PEDIDO</a>
                 </li>
             </ul>
         </div>
@@ -110,8 +110,8 @@
           <div class="card-img">
             <img src="./assets/inicio/tortaPorter.jpg" class="img-fluid rounded text-center" alt="Torta Porter">
           </div>
-          <h2 class="p-3"> <span class="parrafo">LÍNEA</span> <br>
-          Clásica</h2>
+          <h2 class="pt-3"> <span class="parrafo">LÍNEA</span> <br>
+          Clásica</h2><br><br>
           <div class="card-body">
             <p class="description mb-1">
               Pastelería tradicional de base francesa, preparaciones conocidas mundialmente, con un toque personal. También podés encontrar delicias tradicionales de otros países.
@@ -127,7 +127,7 @@
           <div class="card-img">
             <img src="./assets/inicio/masasIntegrales.jpg" class="img-fluid rounded text-center" alt="Torta Porter">
           </div>
-          <h2 class="p-3"> <span class="parrafo">LÍNEA</span> <br>
+          <h2 class="pt-3"> <span class="parrafo">LÍNEA</span> <br>
               Integral y saludable</h2>
           <div class="card-body">
             <p class="description mb-1">
@@ -144,7 +144,7 @@
           <div class="card-img">
             <img src="./assets/inicio/carrotCake.jpg" class="img-fluid rounded text-center" alt="Torta Porter">
           </div>
-          <h2 class="p-3"> <span class="parrafo">LÍNEA</span> <br>
+          <h2 class="pt-3"> <span class="parrafo">LÍNEA</span> <br>
             Medieval y fantástica</h2>
           <div class="card-body">
             <p class="description mb-1">
@@ -179,16 +179,16 @@
   <!-- Fin de Slider -->
   <section class="bg-yellow">
     <div class="container">
-      <div class="flex flex-column py-2 p-md-5">
+      <div class="flex flex-column py-2 py-md-5">
         <div class="">
           <h2>¿Quién es <br>Lady Regina?</h2>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between">
 
-          <div class="emilce mx-auto d-md-none">
-            <img class= "radius-img text-center" src="./assets/inicio/ladyRegina.jpeg" alt="Emilce">
+          <div class="mx-auto my-2 d-md-none">
+            <img class="img-fluid emilce-img" src="assets/conoceme/ladyRegina.jpeg" alt="Lady Regina">
           </div>
-          <p class="parrafo text-black mt-4 col-12 col-md-6 col-lg-7">
+          <p class="parrafo text-black mt-3 col-12 col-md-6 col-lg-7">
             ¡Hola! Mi nombre es Emilce y soy Lady Regina.
             Para mí, la pastelería es una conjunción 
             maravillosa de amor y arte, a través de la cual
@@ -202,7 +202,8 @@
             una experiencia única a quién lo pruebe y lo 
             sumerja en un viaje lleno del mas dulce sabor.
           </p>
-          <div class="bg-emilce  d-none d-md-block">
+          <div class="d-none d-md-block">
+            <img class="img-fluid radius-img emilce-img" src="assets/conoceme/ladyRegina.jpeg" alt="Lady Regina">
           </div>
         </div>
         <div>
@@ -238,18 +239,17 @@
         </div>
         <div class="mb-3">
           <label for="mensaje" class="form-label description text-purple">Mensaje</label>
-          <textarea class="form-control mb-4" name="message" id="mensaje" rows="3" placeholder="Contame en detalle en qué puedo ayudarte..."></textarea>      
+          <textarea class="form-control mb-4 description" name="message" id="mensaje" rows="3" placeholder="Contame en detalle en qué puedo ayudarte..."></textarea>      
         <div id="successForm" class="mb-3">
         <div id="errorMensaje"></div>
         <div id="errorForm"></div>
         <span class=" text-purple">*Campos Obligatorios</span>
       </div>
-        <div class="d-flex justify-content-between col-8 col-md-4 mx-auto">
-          <input type="submit" class="btn secondary" value="ENVIAR" id="boton_enviar">
-          <input type="button" class="btn terciary" value="BORRAR" id="boton_borrar">
-          
-        </div>
-      </form>
+      <div class="d-flex justify-content-end col gap-3 ">
+        <input type="submit" class="btn secondary" value="ENVIAR" id="boton_enviar">
+        <input type="button" class="btn terciary" value="BORRAR" id="boton_borrar">
+      </div>
+    </form>
     </div>
   </section>
     <!-- Footer -->
@@ -257,7 +257,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 footer-center">
-        <img src="./assets/logoLadyRegina.png" alt="Lady Regina" class="ms-lg-5" width="202px">
+        <img src="./assets/logoLadyRegina.png" alt="Lady Regina" class="ms-lg-5 footer-logo">
       </div>
       <div class="col-md-8 ">
         <div class="row pt-md-5 footer-center">
