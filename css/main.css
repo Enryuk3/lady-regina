@@ -187,6 +187,18 @@ a {
 }
 
 .emilce-img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  object-position: 70% 35%;
+  margin-left: 20px;
+  border-radius: 25px;
+}
+.emilce-img2 {
+  margin-top: 15px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 70% 35%;
   margin-left: 20px;
   border-radius: 25px;
 }
@@ -216,6 +228,9 @@ a {
   font-size: 16px;
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
+}
+.footer-logo {
+  width: 202px;
 }
 .footer-mobile {
   font-size: var(--footer-mobile);
@@ -307,7 +322,6 @@ a {
 
 .dropdown-item:focus, .dropdown-item:hover {
   background-color: var(--purple);
-
 }
 
 .btn-wsp {
@@ -318,15 +332,17 @@ a {
   border-radius: 50px;
   text-align: center;
   transition: all 0.3s linear;
+  z-index: 500;
 }
 .btn-wsp img {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
 }
 .btn-wsp:hover {
   transform: scale(1.06);
-
 }
+
+
 /* medida maxima Tablet*/
 @media (max-width:767px){
   h1, h2, h3, h4, h5 {
@@ -379,8 +395,16 @@ a {
   }
   .emilce-img {
     margin-left: 0;
-    height: 262px;
-    width: 100%;
+    height: 253px;
+    width: 327px;
+    object-fit: cover;
+    object-position: 70% 35%;
+  }
+  .emilce-img2 {
+    margin-top: 5px;
+    margin-left: 0;
+    height: 253px;
+    width: 327px;
     object-fit: cover;
     object-position: 70% 35%;
   }
@@ -432,7 +456,7 @@ a {
     text-align: center;
   }
   .footer-logo {
-    margin: 0;
+    width: 135px;
   }
   .contenedor-conoceme {
     padding-top: 15px;
@@ -484,8 +508,8 @@ a {
     object-fit: cover;
   }
   .btn-wsp img {
-    width: 33px;
-    height: 33px;
+    width: 40px;
+    height: 40px;
   }
 }
 
