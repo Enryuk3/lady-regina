@@ -41,8 +41,7 @@ const mostrarProductos = (productos) => {
 
 // input de busqueda
 const inputBusqueda = document.getElementById("inputSearch");
-// boton de busqueda
-const btnBusqueda = document.getElementById("btnBusqueda");
+
 // formulario
 const formularioLI = document.getElementById("formLineaIntegral")
 
