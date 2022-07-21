@@ -34,7 +34,7 @@
 }
 
 .swiper-slide:nth-child(3) {
-  background: url(../assets/inicio/carrotCake.jpg) no-repeat center;
+  background: url(../assets/inicio/carrotCake.webp) no-repeat center;
   background-size: cover;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .swiper-slide:nth-child(5) {
-  background: url(../assets/inicio/tortaFrutada.jpg) no-repeat center;
+  background: url(../assets/inicio/tortaFrutada.webp) no-repeat center;
   background-size: cover;
 }
 
