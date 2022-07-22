@@ -68,6 +68,10 @@ a {
   font-size: var(--boton-cta);
   font-weight: 800;
 }
+.description-footer {
+  font-size: var(--footer);
+  font-weight: 600;
+}
 
 .bg-blue {
   background-color: var(--aqua-turquoise);
@@ -450,6 +454,10 @@ a {
   }
   .title-footer {
     font-size: var(--boton-cta-mobile);
+  }
+  .description-footer {
+    font-size: var(--footer);
+    font-weight: 600;
   }
   .footer-center {
     padding-top: 0;
