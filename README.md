@@ -1,4 +1,4 @@
-# Lady Regina Delicias :tw-1f369:🍩
+# Lady Regina Delicias🍩
 
 ## Descripción
 **LADY REGINA**  es una pastelería. Comenzó como un negocio familiar y está  especializada en 3 líneas de productos:
